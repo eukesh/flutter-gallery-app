@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
-import 'package:projeto_final/controllers/Controller.dart';
+import 'package:projeto_final/controllers/controller.dart';
 import 'package:intl/intl.dart';
 
 class TelaCadastro extends StatefulWidget {

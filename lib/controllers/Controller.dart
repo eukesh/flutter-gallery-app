@@ -1,5 +1,5 @@
-import 'package:projeto_final/model/ImageApp.dart';
-import 'package:projeto_final/model/ImageAppRepository.dart';
+import 'package:projeto_final/model/image.dart';
+import 'package:projeto_final/model/image_repository.dart';
 
 class Controller {
   List<ImageApp> imagens = [];

@@ -1,6 +1,6 @@
-import 'package:projeto_final/model/BancoDeDados.dart';
+import 'package:projeto_final/model/bd.dart';
 
-import 'ImageApp.dart';
+import 'image.dart';
 
 class ImageAppRepository {
   Future<List<ImageApp>> selectAll() async {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_final/view/TelaInicial.dart';
+import 'package:projeto_final/view/home.dart';
 
 void main() {
   runApp(MyApp());

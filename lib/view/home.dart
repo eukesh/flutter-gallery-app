@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:projeto_final/controllers/Controller.dart';
-import 'package:projeto_final/model/BancoDeDados.dart';
-import 'package:projeto_final/view/TelaCadastro.dart';
+import 'package:projeto_final/controllers/controller.dart';
+import 'package:projeto_final/model/bd.dart';
+import 'package:projeto_final/model/image.dart';
+import 'package:projeto_final/view/register_image.dart';
 import 'package:projeto_final/view/list_itens.dart';
 
 class TelaInicial extends StatefulWidget {
@@ -46,9 +47,8 @@ class _TelaInicialState extends State<TelaInicial> {
   _home() {
     return ListView.builder(
       itemCount: controller.imagens.length,
-      itemBuilder: (BuildContext context, int index) {
-        return controller.imagens.isEmpty ? Container() : ListItens(index);
-      },
+      itemBuilder: (BuildContext context, int index) =>
+          controller.imagens.isEmpty ? Container() : ListItens(index),
     );
   }
 
