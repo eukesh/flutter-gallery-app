@@ -1,11 +1,11 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:projeto_final/controllers/controller.dart';
 import 'package:projeto_final/model/bd.dart';
-import 'package:projeto_final/model/image.dart';
-import 'package:projeto_final/view/register_image.dart';
 import 'package:projeto_final/view/list_itens.dart';
+import 'package:projeto_final/view/register_image.dart';
 
 class TelaInicial extends StatefulWidget {
   @override
@@ -79,7 +79,7 @@ class _TelaInicialState extends State<TelaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Galeria de Imagens'),
+        title: Text('Galeria e Imagens'),
         centerTitle: true,
       ),
       body: _tela(),

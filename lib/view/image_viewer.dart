@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:projeto_final/controllers/controller.dart';
 import 'package:projeto_final/model/image.dart';
-import 'package:projeto_final/view/home.dart';
 
 class TelaImagem extends StatefulWidget {
   const TelaImagem({Key? key, required this.img}) : super(key: key);
